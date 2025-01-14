@@ -6,7 +6,7 @@ class Notification
 {
     public:
         virtual void send(const string& message) = 0; 
-        virtual ~Notification() = default; // deconstructor of the above constructor to free up memory after use
+        virtual ~Notification() = default; // destructor of 
 };
 
 
